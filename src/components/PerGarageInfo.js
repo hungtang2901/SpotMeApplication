@@ -16,7 +16,7 @@ class PerGarageInfo extends React.Component {
 
                 <View style={styles.perGarageInfo.leftSectionStyle}>
                     <View style={styles.perGarageInfo.generalStyle}>
-                        <Text style={{ fontSize: 40, color: 'blue' }}>
+                        <Text style={{ fontSize: 30, color: 'blue' }}>
                             {this.props.garageName}
                         </Text>
                     </View>
@@ -30,12 +30,12 @@ class PerGarageInfo extends React.Component {
                     justifyContent: "center",
                     alignItems: "center",
                 }]}>
-                    
+
 
 
                     <View style={[styles.perGarageInfo.generalStyle, {
                         alignItems: "center",
-                        
+
                     }]}>
                         {/* <GarageBottomLine
                             perLev={'Level 1: 49  '} // per garage levels

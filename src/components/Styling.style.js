@@ -5,7 +5,7 @@ import {
     Text
 } from "react-native";
 
-const garListHeight = 150;
+const garListHeight = 180;
 const borderRadius = 20;
 
 const styles = {

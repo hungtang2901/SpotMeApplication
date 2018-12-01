@@ -102,7 +102,7 @@ class GarList extends Component {
             toValue: -(styles.garList.containerStyle.height - styles.garList.height),
             duration: 100
         }).start();
-        
+
 
     }
 
@@ -134,4 +134,3 @@ class GarList extends Component {
 
 
 export default GarList;
-
